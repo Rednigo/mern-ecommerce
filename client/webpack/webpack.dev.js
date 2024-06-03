@@ -72,7 +72,7 @@ const config = {
     open: true,
     inline: true,
     compress: true,
-    // host: '0.0.0.0',
+    // host: 'localhost',
     hot: true,
     disableHostCheck: true,
     historyApiFallback: true

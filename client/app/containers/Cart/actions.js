@@ -206,13 +206,5 @@ const getCartItems = cartItems => {
 };
 
 const calculatePurchaseQuantity = inventory => {
-  if (inventory <= 25) {
-    return 1;
-  } else if (inventory > 25 && inventory <= 100) {
-    return 5;
-  } else if (inventory > 100 && inventory < 500) {
-    return 25;
-  } else {
-    return 50;
-  }
+    return inventory;
 };

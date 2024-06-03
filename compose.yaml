@@ -1,4 +1,3 @@
-version: '3'
 services:
   client:
     build: client
@@ -10,7 +9,7 @@ services:
       - PORT=3000
       - BASE_API_URL=api
       - CLIENT_URL=http://localhost:8080
-      - JWT_SECRET=update_your_JWT_secret
-      - MONGO_URI=update_your_mongo_URI
+      - JWT_SECRET=19c0d9b192f61ce554169ac54531d81b7aef685f9228f1d33111d2e2a9dda065
+      - MONGO_URI=mongodb+srv://RootUser:1q2w3e4r@furniturestore.oc1kln5.mongodb.net/?retryWrites=true&w=majority&appName=FurnitureStore
     ports:
       - '3000:3000'

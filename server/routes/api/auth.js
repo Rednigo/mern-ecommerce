@@ -294,6 +294,7 @@ router.post('/reset', auth, async (req, res) => {
   }
 });
 
+
 router.get(
   '/google',
   passport.authenticate('google', {
